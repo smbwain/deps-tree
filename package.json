@@ -1,0 +1,35 @@
+{
+  "name": "deps-tree",
+  "version": "0.0.1",
+  "description": "Initializer for tree of dependencies",
+  "main": "dist/index.js",
+  "types": "types.d.ts",
+  "dependencies": {
+    "defer-promise": "1.0.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "2.2.41",
+    "@types/node": "8.0.7",
+    "joi": "10.2.2",
+    "mocha": "3.2.0",
+    "source-map-support": "0.4.11",
+    "typescript": "2.4.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha dist/tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smbwain/deps-tree.git"
+  },
+  "keywords": [
+    "dependencies", "tree"
+  ],
+  "author": "Roman Ditchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smbwain/deps-tree/issues"
+  },
+  "homepage": "https://github.com/smbwain/deps-tree#readme"
+}
